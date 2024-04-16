@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrnd"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/text_background"
+        android:text="Reflective Rhythms"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+    <TextView
+        android:id="@+id/text_trans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:textStyle="bold"
+        android:text="Tell Gemini About Your and ask it to write a journal for you.\n\nNB:Don't forget to copy and paste to self write!! "
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/display_jrnals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:backgroundTint="@color/blue"
+        android:text="View Journals"
+        tools:ignore="HardcodedText,TextContrastCheck,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/chat_Gemini"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:backgroundTint="@color/green"
+        android:text="Chat with Gemini"
+        tools:ignore="HardcodedText,TextContrastCheck,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/writeJournal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:backgroundTint="@color/orange"
+        android:text="Self write journal"
+        tools:ignore="HardcodedText,TextContrastCheck,VisualLintButtonSize" />
+
+</RelativeLayout>
